@@ -1,0 +1,49 @@
+.block-red::before{
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    background-color: red;
+    color: #fff;
+}
+.block-red::after{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    color: #fff;
+}
+.btn{
+    font-size: 14px;
+    font-weight: 400;
+    padding: 20px;
+    width: 200;
+    color: white;
+    background-color: blue;
+    margin: 0 0 20px 0;
+}
+.btn:hover {
+    background-color: seagreen;
+    font-size: 14.7px;
+}
+.btn:focus-visible {
+    background-color: teal;
+}
+.link {
+    font-size: 16px;
+    font-weight: 700;
+    color: red;
+}
+.link:hover {
+    background-color: blue;
+    font-size: 20px;
+}
+.link:active {
+    color: aquamarine;
+}
+.link::first-letter {
+    background-color: blue;
+    display: block;
+}
+.title {
+    margin: 0 0 20px 0;
+}
